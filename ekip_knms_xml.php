@@ -17,7 +17,7 @@ $max_trh = $max_tarih_mysql["yl"]."".$max_tarih_mysql["ay"]."".$max_tarih_mysql[
 $degisken = mktime(0,0,0,$min_tarih_mysql["ay"],$min_tarih_mysql["gn"],$min_tarih_mysql["yl"]);
 $yl = (date('Y',$degisken));
 $ay = (date('n',$degisken));
-$gn = (date('j',$degisken));
+$gn = (date('j',$degisken));sssss
 //-----------------------------------------------------------------------------------------
 
 while(($yl."".$ay."".$gn <= $max_trh)){
